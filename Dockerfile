@@ -50,6 +50,7 @@ ENV PORT=5314
 
 # Specify container only environment variables ( can be overwritten by runtime env )
 ENV NUXT_STORAGE_FS_BASE='/elk/data'
+ENV NUXT_PUBLIC_TRANSLATE_API='https://translate.elk.zone/translate'
 ENV NUXT_PUBLIC_DEFAULT_SERVER='muri.network'
 
 # Persistent storage data
