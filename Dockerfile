@@ -52,6 +52,7 @@ ENV PORT=5314
 ENV NUXT_STORAGE_FS_BASE='/elk/data'
 ENV NUXT_PUBLIC_TRANSLATE_API='https://translate.elk.zone/translate'
 ENV NUXT_PUBLIC_DEFAULT_SERVER='muri.network'
+ENV NUXT_PUBLIC_SINGLE_INSTANCE='true'
 
 # Persistent storage data
 VOLUME [ "/elk/data" ]
