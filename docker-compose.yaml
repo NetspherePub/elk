@@ -10,5 +10,3 @@ services:
       - '/volume8/docker/elk-mn-data:/elk/data'
     ports:
       - 5314:5314
-    env_file:
-      - .env
